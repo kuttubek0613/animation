@@ -1,0 +1,48 @@
+body{
+    width: auto;
+    height: 700px;
+    background-image: url(https://bogatyr.club/uploads/posts/2023-02/1677381346_bogatyr-club-p-gori-multyashnie-krasivii-fon-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4312/4312298.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: sun 10s infinite ease-in-out;
+    transition: 1s;
+}
+
+@keyframes sun {
+    0%{
+        top: 200px;
+        left: -100px;
+    }
+
+    25%{
+        top: 30px;
+        left: 300px;
+    }
+
+    50%{
+        top: 20px;
+        left: 600px;
+    }
+
+    75%{
+        top: 50px;
+        left: 900px;
+    }
+
+    100%{
+        top: 200px;
+        left: 1500px;
+    }
+    
+
+
+}
